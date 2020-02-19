@@ -1,0 +1,58 @@
+'''
+Regan Tarasewicz
+"I pledge my honor that I have abided by the Stevns Honor System."
+EX-02 Due 2-13-2020
+'''
+
+from io import StringIO
+from unittest import TestCase
+from unittest.mock import patch
+from unittest import main
+from tddCents import getCents 
+
+class TestGetCents(TestCase):
+	
+	'''
+	Input  = -1 
+	Output = Invalid input. Please enter positive number
+	'''
+	def testNEG(self):
+		with patch('sys.stdout',new = StringIO()) as fake_out:
+			getCents(-1)
+			self.assertEqual(fake_out.getvalue(),"Invalid input. Please enter postive number\n")
+	'''
+	Input = random
+	Output = Invalid input. please enter int
+	'''
+	def testNAN(self):
+		with patch('sys.stdout',new = StringIO()) as fake_out:
+			getCents("random")
+			self.assertEqual(fake_out.getvalue(),"Invalid input. please enter int\n")
+	'''
+	Input = done
+	Output = Goodbye.
+	'''
+	def testDONE(self):
+		with patch('sys.stdout',new = StringIO()) as fake_out:
+			getCents("done")
+			self.assertEqual(fake_out.getvalue(),"Goodbye.\n")
+	'''
+	Input = 4
+	Output = Invalid input. Please enter multiple of five
+	'''
+	def testNOTFIVE(self):
+		with patch('sys.stdout',new = StringIO()) as fake_out:
+			getCents(4)
+			self.assertEqual(fake_out.getvalue(),"Invalid input. Please enter multiple of five\n")
+	'''
+	Input = 10
+	Output = You entered 10 cents
+	'''
+	def testFIVE(self):
+		with patch('sys.stdout',new = StringIO()) as fake_out:
+			getCents(10)
+			self.assertEqual(fake_out.getvalue(),"You entered 10 cents\n")
+
+if __name__ == '__main__':
+	main()
+	
