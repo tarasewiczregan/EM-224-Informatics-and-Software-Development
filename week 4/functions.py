@@ -4,7 +4,7 @@
 
 def isNumber(num):
     try:
-        float(num)
+        int(num)
         return 'yes'
     except:
         return 'no'
@@ -27,7 +27,7 @@ listNumbers = []
 
 count = 0
 while (count < 3):
-    print('Enter a number (', (count + 1), 'out of 3)')
+    print('Input a number..', (count + 1), 'of 3 inputs')
     number = input('->')
     if (isNumber(number) == 'yes'):
         listNumbers.append(int(number))
