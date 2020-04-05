@@ -1,0 +1,8 @@
+Week 7
+
+-Ex06
+--Utilizes Pandas to process three data files: 'movies.dat', 'ratings.dat', and 'users.dat'
+--Prints first few lines of each data set, finds the highest rated movie, and finds total counts.
+
+-Pandas.py and Pandas.ipynb
+--Notes given by professor.

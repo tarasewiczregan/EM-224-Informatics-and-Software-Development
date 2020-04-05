@@ -1,0 +1,10 @@
+Week 6 - Exam
+
+-exam1.py
+--Code given for problems 7 and 8 in exam.
+
+-exam1c.py
+--Inputs a word and for each character in that word it repeats the character the same amount of times as the length of the original word
+--Reads 'word_list.csv' into a dictionary, finds average word length and longest word
+--Tests input if the length is one, then tests if it is a vowel
+
