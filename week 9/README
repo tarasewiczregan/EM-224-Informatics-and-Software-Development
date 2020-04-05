@@ -1,5 +1,9 @@
 Week 9
 
+-In Class 7
+--Inputs a text file and uses nltk module to remove stopwords (given in 'stopwords_en.txt'). Additional cleaning inclues removing non alphabetical "words"
+--Creates a word cloud png using wordcloud module
+
 -nltk_sample.py and sentiwordnet_sample.py and cloud.py
 --Sample text processing scripts provided by professor.
 
