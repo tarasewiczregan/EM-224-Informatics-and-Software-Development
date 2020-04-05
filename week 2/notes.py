@@ -1,7 +1,3 @@
-#REGAN TARASEWICZ
-#"I pledge my honor that I have abided by the Stevens Honor System."
-#In-Class Assignment 2, 2/06/2020
-
 x = 10
 type(x)
 

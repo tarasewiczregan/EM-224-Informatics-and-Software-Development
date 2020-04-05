@@ -1,0 +1,13 @@
+Week 5
+
+-In Class 5
+--Inputs password and checks the following as requirements: atleast one lowercase letter, atleast one number, atleast one uppercase letter, atleast one character from [$, #, @], length between six and twelve
+
+-Ex05 Questions
+--What is a software life cycle?
+--What is waterfall software development and what are its major limitations?
+--What is software engineering and why is it relevant?
+
+-Ex05
+--Uses 'marketingdata.txt' to print data totals as a bar chart and pie chart using matplotlib.pyplot
+

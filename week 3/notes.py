@@ -1,4 +1,3 @@
-
 greeting = 'Hello! My name is Regan, it is great meeting you.'
 print(greeting.split())
 

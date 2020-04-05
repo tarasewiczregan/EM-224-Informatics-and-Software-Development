@@ -1,0 +1,11 @@
+Week 4
+
+-In Class 4
+--User inputs three numbers: takes factorial of first, adds all three, multiplies all three
+
+-EX04
+--Reads 'citi_bike.txt' into a list. Calculates average daily miles and total 24-passes purchased for a specific month.
+--Repeats for 'citi_bike.csv'
+
+-notes.py
+--Various notes from in class.

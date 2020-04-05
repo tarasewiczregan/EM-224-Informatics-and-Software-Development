@@ -1,0 +1,11 @@
+Week 3
+
+-In Class 3
+--Reads files from 'names.txt' to count the unique names and finds most common name.
+
+-Ex03
+--Processes a text file, given by user, locates and prints lines containing 'NA', along with various counts
+--Processes a csv file, 'CitiBike.csv', tests for miles traveled each day and total line count
+
+-notes.py
+--Various notes from in class.

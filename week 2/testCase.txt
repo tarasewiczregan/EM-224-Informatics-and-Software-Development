@@ -1,2 +1,0 @@
-Please entern number that is a muliple of five or done when finished Invalid input. please enter int
-Please entern number that is a muliple of five or done when finished 

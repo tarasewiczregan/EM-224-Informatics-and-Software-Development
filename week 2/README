@@ -1,0 +1,20 @@
+Week 2
+
+-In Class 2a
+--Asks user for a number. Checks for the following: a number, specifically 4, even or odd.
+
+-In Class 2b
+--Tests integer inputs, as ages, and utilizes datetime module to calculate the year they turn 100 and determines how many days until the beginning of said year
+
+-Ex02 TDD
+--Test-Driven Design
+--Tests input for: numerical, positive, multiple of five, or 'done'
+
+-Ex02
+--Code following same outline as Ex02 TDD
+
+-tests.py
+--Reads a text file, outputs the line count along with line contents
+
+-notes2.py
+--Various notes from in class.

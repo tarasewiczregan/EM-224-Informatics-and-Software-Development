@@ -2,8 +2,10 @@
 #"I pledge my honor that I have abided by the Stevens Honor System."
 #In-Class Assignment 1, 1/30/2020
 
-
-#import math
+'''
+Inputs 3 numbers, solves the quadratice formula.
+Checks for negative discriminant.
+'''
 
 a = float(input("Enter a number a: "))
 b = float(input("Enter a number b: "))

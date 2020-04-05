@@ -1,4 +1,3 @@
-
 def getCents(c):
 	cents = c
 	if(cents == 'done'):
@@ -7,7 +6,7 @@ def getCents(c):
 	try:
 		cents = int(cents)
 	except:
-		print("Invalid input. please enter int")
+		print("Invalid input. Please enter int")
 		return True
 	if(cents<0):
 		print("Invalid input. Please enter postive number")
