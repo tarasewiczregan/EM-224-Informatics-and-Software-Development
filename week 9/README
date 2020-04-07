@@ -4,6 +4,28 @@ Week 9
 --Inputs a text file and uses nltk module to remove stopwords (given in 'stopwords_en.txt'). Additional cleaning inclues removing non alphabetical "words"
 --Creates a word cloud png using wordcloud module
 
+-nasaArticle.txt
+--Article used for In Class 7 collected from ABC News
+
+-nasa.png
+--Word cloud output from In Class 7
+
+-Ex07
+--Inputs two text files, 'ProGuns.txt' and 'AgainstGuns.txt' to perform analysis on word usage
+--First collects only relevant information from text files, the comments
+--Cleans up collected information, similar to In Class 7
+--Calculates sentiments on words in each file by utilizing sentiwordnet to rate words
+--Creates a word cloud for each file
+
+-proGuns.txt and agaGuns.txt
+--Sentiment outputs from ex07.py
+
+-proGuns.png and agaGuns.png
+--Word cloud outputs from ex07.py
+
+-ProGuns.txt and AgainstGuns.txt
+--Given text files needed for assignment.
+
 -nltk_sample.py and sentiwordnet_sample.py and cloud.py
 --Sample text processing scripts provided by professor.
 

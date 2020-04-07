@@ -1,0 +1,10 @@
+Regan Tarasewicz
+"I pledge my honor that I have abided by the Stevens Honor System."
+Ex07 - Due 04-09-2020
+
+Based on the results of the WordClouds, both sides of the response to "Should Adults Have the Right to Carry a Concealed Handgun?" mention the words gun and people most frequently. ALong with those top two, the responders mentioned the words right, carry, and think a lot. It begins to differ from there.
+On the ProGuns side, the words just and law came up frequently, but then so did words like criminal, firearm, weapon, bad, crime. Also very notable, are the words protect and protection in the ProGuns wordcloud.
+On the AgainstGuns side, think and concealed-weapon or concealed-handgun were the next most popular words mentioned. After that, though, the frequency in the words drop significantly, unlike with in the ProGuns words. From this, I conclude more people had similar statements posted for the AgainstGuns argument, whereas the ProGuns argument was more diverse in statements.
+
+As for the sentiments of the words in each message board, both ProGuns and AgainstGuns experienced a wide range of sentiments. Both included positive and negative ratings, however there were more positive ratings in the ProGuns board.
+However, many of the words taken from the people's comments were not processed: 1664 from ProGuns and 1241 from AgainstGuns. That means the ratings of these words were disregarded when they could not be found in the sentiwordnet dictionary and could have a major impact on the statistics gathered.

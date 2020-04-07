@@ -12,5 +12,5 @@ words = ['good', 'great', 'bad', 'terrible', 'happy', 'sad']
 
 # looping into the list of words and printing the sentiment
 for elem in words:
-    print '\nfor word', elem, 'sentiment is', swn.senti_synset(elem + '.a.03')
+    print('\nfor word', elem, 'sentiment is', swn.senti_synset(elem + '.a.03'))
     
