@@ -1,0 +1,5 @@
+Week 10
+
+-In Class 8
+--reads 'hoboken_tweets.csv' into a pandas structureand then removes stopwords given in 'stopwords_en.txt' as well as performs additional cleaning
+--calculates and prints top 10 words and senders, displays in graphs
