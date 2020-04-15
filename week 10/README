@@ -11,7 +11,7 @@ Week 10
 
 -EX08.py
 --Creates four plots from data found in 'food.txt' matrix using Bokeh plots
---Outputs to '2005Consumption.html', 'avgConsumption.html', 'beef.html', and beefVsPoultry.html' -> all four found in 'ex08.html'
+--Outputs to '2005Consumption.html', 'avgConsumption.html', 'beef.html', and beefVsPoultry.html' -> all four found in 'ex08.html' and 'EX08.pdf'
 
 -Visualization.ipynb
 --Notes provided by professor.

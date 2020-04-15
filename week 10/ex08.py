@@ -25,7 +25,7 @@ output_file('beef.html')
 p = figure(plot_width = 400, plot_height = 400, title = 'Beef Consumption by Year')
 p.yaxis.axis_label = 'Beef Consumption'
 p.line(data[0][1:], data[1][1:], line_width = 2, color = 'green')
-#show(p)
+show(p)
 
 for i in range(1, 5):		#this changes all numbers in list to float
     data[i][1:] = [float(x) for x in data[i][1:]]
@@ -39,7 +39,7 @@ q = figure(plot_width = 400, plot_height = 400, title = 'Beef vs Poultry (Fowl) 
 q.yaxis.axis_label = 'Poultry'
 q.xaxis.axis_label = 'Beef'
 q.circle(beef, poultry, size = 15, color = 'red', alpha = 0.5)
-#show(q)
+show(q)
 
 meats = ['Beef', 'Pork', 'Fowl', 'Fish']
 
@@ -47,7 +47,7 @@ meats = ['Beef', 'Pork', 'Fowl', 'Fish']
 output_file('avgConsumption.html')
 r = figure(plot_width = 400, plot_height = 400, title = 'Average Consumption by Food Type', x_range = meats)
 r.vbar(x = meats, width = 0.5, bottom = 0, top =  [np.mean(data[1][1:]), np.mean(data[2][1:]), np.mean(data[3][1:]), np.mean(data[4][1:])], color = 'navy')
-#show(r)
+show(r)
 
 d = {}		#convert 2005 consumption data to dictionary for pie chart
 for i in range(1, 5):
@@ -66,7 +66,4 @@ data1['value'] = data1['value'].str.pad(35, side = 'left')
 source = ColumnDataSource(data1)
 labels = LabelSet(x = 0, y = 1, text = 'value', angle = cumsum('angle', include_zero = True), source = source, render_mode = 'canvas')
 s.add_layout(labels)
-#show(s)
-
-output_file('exo8.html')
-show(row(p, q, r, s))
+show(s)
