@@ -1,0 +1,9 @@
+Regan Tarasewicz
+"I pledge my honor that I have abided by the Stevens Honor System."
+EX08 Text Mining Questions - Due 04-16-2020
+
+1. Text mining preparation includes the cleansing, preparing, and transforming of a data set for modeling. This includes correcting or removing any out of order values and outlining the final dataset.
+
+2. Wordnet is a large lexical database, sometimes known as an "electronic dictionary." It links words semantically, where a regular dictionary organizes words alphabetically and the words are not related to near words. 
+
+3. "Part of speech tagging" is part of text mining which marks words based on its definition and relationship with surrounding words.

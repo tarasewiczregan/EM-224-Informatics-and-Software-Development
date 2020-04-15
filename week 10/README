@@ -1,5 +1,17 @@
 Week 10
 
 -In Class 8
---reads 'hoboken_tweets.csv' into a pandas structureand then removes stopwords given in 'stopwords_en.txt' as well as performs additional cleaning
---calculates and prints top 10 words and senders, displays in graphs
+--reads 'hoboken_tweets.csv' into a pandas structure and then removes stopwords given in 'stopwords_en.txt' as well as performs additional cleaning
+--calculates and prints top 10 words and senders, displays in graphs in 'topWords.png' and 'topUsers.png'
+
+-EX08.txt
+--What is text mining preparation?
+--What are the differences between Wordnet and a dictionary?
+--What is "part of speech tagging"?
+
+-EX08.py
+--Creates four plots from data found in 'food.txt' matrix using Bokeh plots
+--Outputs to '2005Consumption.html', 'avgConsumption.html', 'beef.html', and beefVsPoultry.html' -> all four found in 'ex08.html'
+
+-Visualization.ipynb
+--Notes provided by professor.

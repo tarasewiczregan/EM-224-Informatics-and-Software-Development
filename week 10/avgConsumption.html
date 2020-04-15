@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.1.min.js" integrity="sha384-JpP8FXbgAZLkfur7LiK3j9AGBhHNIvF742meBJrjO2ShJDhCG2I1uVvW+0DUtrmc" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="be1a1fd5-9261-4f20-b66b-216443c79095" data-root-id="1271"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1404">
+          {"4a10cfbb-6c54-4456-96b3-ee91cc254ccd":{"roots":{"references":[{"attributes":{"overlay":{"id":"1295"}},"id":"1291","type":"BoxZoomTool"},{"attributes":{},"id":"1314","type":"UnionRenderers"},{"attributes":{},"id":"1289","type":"PanTool"},{"attributes":{"factors":["Beef","Pork","Fowl","Fish"]},"id":"1274","type":"FactorRange"},{"attributes":{"axis":{"id":"1282"},"ticker":null},"id":"1284","type":"Grid"},{"attributes":{},"id":"1278","type":"CategoricalScale"},{"attributes":{},"id":"1294","type":"HelpTool"},{"attributes":{"formatter":{"id":"1312"},"ticker":{"id":"1283"}},"id":"1282","type":"CategoricalAxis"},{"attributes":{},"id":"1283","type":"CategoricalTicker"},{"attributes":{},"id":"1276","type":"DataRange1d"},{"attributes":{},"id":"1293","type":"ResetTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"navy"},"line_alpha":{"value":0.1},"line_color":{"value":"navy"},"top":{"field":"top"},"width":{"value":0.5},"x":{"field":"x"}},"id":"1305","type":"VBar"},{"attributes":{"data":{"top":[65.75,48.400000000000006,58.18333333333334,14.516666666666666],"x":["Beef","Pork","Fowl","Fish"]},"selected":{"id":"1315"},"selection_policy":{"id":"1314"}},"id":"1303","type":"ColumnDataSource"},{"attributes":{"text":"Average Consumption by Food Type"},"id":"1272","type":"Title"},{"attributes":{},"id":"1315","type":"Selection"},{"attributes":{"axis":{"id":"1285"},"dimension":1,"ticker":null},"id":"1288","type":"Grid"},{"attributes":{},"id":"1312","type":"CategoricalTickFormatter"},{"attributes":{"fill_color":{"value":"navy"},"line_color":{"value":"navy"},"top":{"field":"top"},"width":{"value":0.5},"x":{"field":"x"}},"id":"1304","type":"VBar"},{"attributes":{"data_source":{"id":"1303"},"glyph":{"id":"1304"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1305"},"selection_glyph":null,"view":{"id":"1307"}},"id":"1306","type":"GlyphRenderer"},{"attributes":{},"id":"1310","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"1282"}],"center":[{"id":"1284"},{"id":"1288"}],"left":[{"id":"1285"}],"plot_height":400,"plot_width":400,"renderers":[{"id":"1306"}],"title":{"id":"1272"},"toolbar":{"id":"1296"},"x_range":{"id":"1274"},"x_scale":{"id":"1278"},"y_range":{"id":"1276"},"y_scale":{"id":"1280"}},"id":"1271","subtype":"Figure","type":"Plot"},{"attributes":{"formatter":{"id":"1310"},"ticker":{"id":"1286"}},"id":"1285","type":"LinearAxis"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1289"},{"id":"1290"},{"id":"1291"},{"id":"1292"},{"id":"1293"},{"id":"1294"}]},"id":"1296","type":"Toolbar"},{"attributes":{},"id":"1280","type":"LinearScale"},{"attributes":{},"id":"1286","type":"BasicTicker"},{"attributes":{},"id":"1290","type":"WheelZoomTool"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1295","type":"BoxAnnotation"},{"attributes":{},"id":"1292","type":"SaveTool"},{"attributes":{"source":{"id":"1303"}},"id":"1307","type":"CDSView"}],"root_ids":["1271"]},"title":"Bokeh Application","version":"2.0.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1404').textContent;
+                  var render_items = [{"docid":"4a10cfbb-6c54-4456-96b3-ee91cc254ccd","root_ids":["1271"],"roots":{"1271":"be1a1fd5-9261-4f20-b66b-216443c79095"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
