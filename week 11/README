@@ -1,0 +1,15 @@
+Week 11
+
+-EX09.py
+--scraps www.wsj.com for the contents of the headlines
+--opens the url using requests and parses with BeautifulSoup library
+--collects and cleans the headlines, accounting for bigrams, and displays words in a wordcloud
+--output is wcREQ.png
+
+-EX09_SEL.py
+--completes same task as EX09.py, however is able to scrap entire page
+--uses Selenium library and webdriver to account for any JavaScript encoded html
+--output is wcSEL.png
+
+-scaping_NYT.py and 'Web Mining.ipynb'
+--code provided by professor
