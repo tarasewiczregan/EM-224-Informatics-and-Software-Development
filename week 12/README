@@ -1,0 +1,5 @@
+Week 12
+
+- EX10
+--creates wordcloud, content.png, of email contents from 'H_Clinton-emails.csv'
+--creates bar graph of top emailer senders, senders.png
